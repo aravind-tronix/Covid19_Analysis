@@ -9,7 +9,7 @@ clone the repo and install requirements by
 ``pip install -r requirements.txt``
 
 ## Usage
-Run the app by
+Run the app by  
 ``streamlit run app.py``  
 note down the ip address and port its running on and open it in the browser.
 
@@ -40,3 +40,8 @@ here you can select a particular State to see the death,active,confirmed and rec
 here you can select a particular District for selected State to see the death,active,confirmed and recovered cases till date
 
 ![covid-tracking](https://github.com/aravind-tronix/Covid19_Analysis/blob/main/images/Covid1903.PNG)
+
+# Reference API
+1. Statewise data (https://api.covid19india.org/data.json)
+2. Districtwise data (https://api.covid19india.org/state_district_wise.json)
+
