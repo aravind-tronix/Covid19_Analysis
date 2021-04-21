@@ -7,7 +7,7 @@ This app uses two API's which updates everyday. The data are loaded dynamically 
 
 clone the repo and install requirements by  
 ``pip install -r requirements.txt``
-
+------------
 ### DATE VS ACTIVE CASES
 
 ![covid-tracking](https://github.com/aravind-tronix/Covid19_Analysis/blob/main/images/Covid1900.PNG)
