@@ -1,7 +1,6 @@
-matplotlib
-numpy
-pandas
-plotly
-plotly-express
-requests
-streamlit
+matplotlib==3.3.4
+requests==2.25.1
+numpy==1.19.5
+pandas==1.2.4
+plotly==4.14.3
+streamlit==0.80.0
