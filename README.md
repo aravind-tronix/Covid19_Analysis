@@ -13,6 +13,12 @@ Run the app by
 ``streamlit run app.py``  
 note down the ip address and port its running on and open it in the browser.
 
+## Deploy it on heroku
+1. Clone the repo and deploy it to heroku via heroku CLI or deploy the app.
+2. commit the repo to your git account, create an app in heroku and use deploy option to sync your github account with heroku and deploy it with a click.
+
+## Data visualization
+
 ### DATE VS ACTIVE CASES
 
 ![covid-tracking](https://github.com/aravind-tronix/Covid19_Analysis/blob/main/images/Covid1900.PNG)
