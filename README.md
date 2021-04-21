@@ -5,7 +5,7 @@ This app uses two API's which updates everyday. The data are loaded dynamically 
 
 ## Installation
 
-clone the repo and install requirements by
+clone the repo and install requirements by ::
 ``pip install -r requirements.txt``
 
 ### DATE VS ACTIVE CASES
