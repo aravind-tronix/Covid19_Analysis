@@ -2,7 +2,7 @@
 # coding: utf-8
 '''
 Written by Aravind
-python3.4 and above
+python3.6 and above
 start date 10/03/2021
 end date -------
 '''
