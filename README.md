@@ -17,6 +17,9 @@ note down the ip address and port its running on and open it in the browser.
 1. Clone the repo and deploy it to heroku via heroku CLI or deploy the app.
 2. commit the repo to your git account, create an app in heroku and use deploy option to sync your github account with heroku and deploy it with a click.
 
+# Live version of the app
+This app is runing on heroku **https://app-covid19-analysis.herokuapp.com**
+
 ## Data visualization
 
 ### DATE VS ACTIVE CASES
@@ -42,6 +45,6 @@ here you can select a particular District for selected State to see the death,ac
 ![covid-tracking](https://github.com/aravind-tronix/Covid19_Analysis/blob/main/images/Covid1903.PNG)
 
 # Reference API
-1. Statewise data (https://api.covid19india.org/data.json)
-2. Districtwise data (https://api.covid19india.org/state_district_wise.json)
+1. Statewise data **https://api.covid19india.org/data.json**
+2. Districtwise data **https://api.covid19india.org/state_district_wise.json**
 
