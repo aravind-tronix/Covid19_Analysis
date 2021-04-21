@@ -8,10 +8,10 @@ This app uses two API's which updates everyday. The data are loaded dynamically 
 clone the repo and install requirements by  
 ``pip install -r requirements.txt``
 
-## Usaage
+## Usage
 Run the app by
-``streamlit run app.py  
-note down the ip address and port its running on and oprn it in the browser``
+``streamlit run app.py``  
+note down the ip address and port its running on and open it in the browser.
 
 ### DATE VS ACTIVE CASES
 
