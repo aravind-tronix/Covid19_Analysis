@@ -195,7 +195,7 @@ def statewise():
             sourcecode()
 
 def sourcecode():
-    st.title('Contribution and other projects')
+    st.title('Contribution(GITHUB) and other projects')
     if st.button('Open Source code'):
         js = "window.open('https://github.com/aravind-tronix/Covid19_Analysis')"  
         html = '<img src onerror="{}">'.format(js)
