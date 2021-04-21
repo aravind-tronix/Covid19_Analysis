@@ -17,6 +17,7 @@ import plotly.graph_objects as go
 from plotly import tools
 import plotly.offline as py
 import plotly.express as px
+from bokeh.models.widgets import Div
 
 
 DistrictAPI = "https://api.covid19india.org/state_district_wise.json"
@@ -26,7 +27,21 @@ StateResponse = requests.request("GET", StateAPI)
 data1 =json.loads(StateResponse.text)
 DistrictResponse = requests.request("GET", DistrictAPI)
 
-
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            footer:after {
+            content:'Made by Aravind'; 
+            visibility: visible;
+            display: block;
+            position: relative;
+            #background-color: red;
+            padding: 5px;
+            top: 2px;
+        }
+                    </style>
+        """
 
 def totalactive():
     active=[]
@@ -177,6 +192,21 @@ def statewise():
             fig = px.pie(df, values='total', names=df.index, title="Data of"+" "+currentdistrict+","+"Last updated on" +" "+str(date_dt2))
             fig.show()
             st.plotly_chart(fig)
+            sourcecode()
+
+def sourcecode():
+    st.title('Contribution and other projects')
+    if st.button('Open Source code'):
+        js = "window.open('https://github.com/aravind-tronix/Covid19_Analysis')"  
+        html = '<img src onerror="{}">'.format(js)
+        div = Div(text=html)
+        st.bokeh_chart(div)
+        st.write('Other projects')
+    if st.button('Other projects'):
+        js = "window.open('https://jestronics.ml/')"
+        html = '<img src onerror="{}">'.format(js)
+        div = Div(text=html)
+        st.bokeh_chart(div)
 
 def totalcases():
     data = (data1["cases_time_series"])
