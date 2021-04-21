@@ -14,7 +14,7 @@ Run the app by
 note down the ip address and port its running on and open it in the browser.
 
 ## Deploy it on heroku
-1. Clone the repo and deploy it to heroku via heroku CLI or deploy the app.
+1. Clone the repo and deploy it to heroku via heroku CLI. (OR)
 2. commit the repo to your git account, create an app in heroku and use deploy option to sync your github account with heroku and deploy it with a click.
 
 ## Live version of the app
