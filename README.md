@@ -18,7 +18,8 @@ note down the ip address and port its running on and open it in the browser.
 2. commit the repo to your git account, create an app in heroku and use deploy option to sync your github account with heroku and deploy it with a click.
 
 ## Live version of the app
-This app is runing on heroku **https://app-covid19-analysis.herokuapp.com**
+This app is running on streamlit **https://share.streamlit.io/aravind-tronix/covid19_analysis/main/app.py**
+Checkout the app on heroku **https://app-covid19-analysis.herokuapp.com**
 
 ## Data visualization
 
